@@ -41,8 +41,8 @@ $(function() {
 		});
 	});
 	
-	$('.footnoteContent a[rev=footnote]').remove();
-	$('.footnoteContent').prepend('<a href="#" class="closeFootnote">Close</a>').css(footnoteContentCSS);
+	$('.footnoteContent a[class=reversefootnote]').remove();
+	$('.footnoteContent').prepend('<a href="#" class="closeFootnote">&#10006;</a>').css(footnoteContentCSS);
 	$('.closeFootnote').click(function(){
 		$(this).closest('.footnoteContent').slideUp('fast');
 		return false;
