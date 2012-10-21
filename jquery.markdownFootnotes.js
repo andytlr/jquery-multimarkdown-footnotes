@@ -18,7 +18,7 @@ $(function() {
 		'font-family': 'Helvetica, sans-serif'
 	}
 	
-	$("a[rel=footnote]").each(function(){
+	$("a[class=footnote]").each(function(){
 		var link = $(this);
 		var token = link.attr('href').substr(1);
 		var footnoteContent = $(document.getElementById(token)).html();
