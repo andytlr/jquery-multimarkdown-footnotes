@@ -1,19 +1,4 @@
 $(function() {
-	// To edit the display of the footnote
-	var footnoteContentCSS = {
-		'background': '#000',
-		'color': '#fff'
-	}
-	
-	// To edit the display of the link that closes the footnote
-	var closeFootnoteCSS = {
-		'text-transform': 'uppercase',
-		'text-decoration': 'none',
-		'font-size': '9px',
-		'float': 'right',
-		'color': '#666',
-		'font-family': 'Helvetica, sans-serif'
-	}
 	
 	$("a[class=footnote]").each(function(){
 		var link = $(this);
