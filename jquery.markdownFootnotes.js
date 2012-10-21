@@ -20,7 +20,7 @@ $(function() {
 		var token = link.attr('href').substr(1);
 		var footnoteContent = $(document.getElementById(token)).html();
 		
-		$('body').append('<div id="overlay-' + token + '" class="footnoteContent" style="display: none; position: fixed; bottom: 0; left: 0;">' + footnoteContent + '</div>');
+		$('body').append('<div id="overlay-' + token + '" class="footnoteContent">' + footnoteContent + '</div>');
 		
 		link.click(function(){
 			var $currentFootnote = $(document.getElementById('overlay-' + token));

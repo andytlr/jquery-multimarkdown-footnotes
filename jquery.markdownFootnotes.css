@@ -1,0 +1,7 @@
+.footnoteContent {
+	display: none; position: fixed; bottom: 0; left: 0;
+}
+
+.closeFootnote {
+	font-size: 20px;
+}
