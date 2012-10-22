@@ -1,4 +1,14 @@
 $(function() {
+
+// To edit the display of the footnote
+	var footnoteContentCSS = {
+
+	}
+
+	// To edit the display of the link that closes the footnote
+	var closeFootnoteCSS = {
+
+	}
 	
 	$("a[class=footnote]").each(function(){
 		var link = $(this);
