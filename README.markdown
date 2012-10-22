@@ -1,3 +1,5 @@
+# jQuery MultiMarkdown Footnotes
+
 This is a fork of Sumeet Jain's [jQuery Markdown Footnotes].
 
 ## What's different
