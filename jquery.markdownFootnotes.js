@@ -24,7 +24,7 @@ $(function() {
 	});
 	
 	$('.footnoteContent a[class=reversefootnote]').remove();
-	$('.footnoteContent').prepend('<a href="#" class="closeFootnote">&#10006;</a>');
+	$('.footnoteContent').prepend('<a href="#" class="closeFootnote">&times;</a>');
 	$('.closeFootnote').click(function(){
 		$(this).closest('.footnoteContent').slideUp('fast');
 		return false;
