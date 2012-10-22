@@ -1,14 +1,4 @@
 $(function() {
-
-// To edit the display of the footnote
-	var footnoteContentCSS = {
-
-	}
-
-	// To edit the display of the link that closes the footnote
-	var closeFootnoteCSS = {
-
-	}
 	
 	$("a[class=footnote]").each(function(){
 		var link = $(this);
@@ -34,9 +24,9 @@ $(function() {
 	});
 	
 	$('.footnoteContent a[class=reversefootnote]').remove();
-	$('.footnoteContent').prepend('<a href="#" class="closeFootnote">&#10006;</a>').css(footnoteContentCSS);
+	$('.footnoteContent').prepend('<a href="#" class="closeFootnote">&#10006;</a>');
 	$('.closeFootnote').click(function(){
 		$(this).closest('.footnoteContent').slideUp('fast');
 		return false;
-	}).css(closeFootnoteCSS);
+	});
 });
