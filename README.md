@@ -11,17 +11,17 @@ This is a fork of Sumeet Jain's [jQuery Markdown Footnotes].
 * I have moved the styling options out of the `.js` file and into a `.css` file for easier styling (for me anyway).
 * It's more mobile friendly. Especially with long footnotes.
 
-## To do ##
-
-* Clean up `.css` file and comment mandatory and user-changeable styles.
-
 ## In use ##
 
-This in use on my site. Here's an [example post]. In this example I've hidden footnotes at the bottom of each post, so they're only visible with the popover. I also used [Modernizr]'s .js body class to only hide them when JavaScript is present:
+Here's an [example post] from my site. In this example I've hidden footnotes at the bottom of each post, so they're only visible with the popover. I also used [Modernizr]'s .js body class to only hide them when JavaScript is present:
 
 	.js div.footnotes {
 		display: none;
 	}
+
+## To do ##
+
+* Clean up `.css` file and comment mandatory and user-changeable styles.
 
 
 [jQuery Markdown Footnotes]: http://sumeetjain.com/jquery-markdown-footnotes/
