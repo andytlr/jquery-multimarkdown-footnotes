@@ -1,5 +1,8 @@
 $(function() {
 	
+// Different implementations of Markdown do footnotes in different ways. The default in this file is for MultiMarkdown. If it doesn't work, try using the commented lines instead of the line directly below each instance.
+	
+//	$("a[rel=footnote]").each(function(){
 	$("a[class=footnote]").each(function(){
 		var link = $(this);
 		var token = link.attr('href').substr(1);
@@ -23,6 +26,7 @@ $(function() {
 		});
 	});
 	
+//	$('.footnoteContent a[rev=footnote]').remove();
 	$('.footnoteContent a[class=reversefootnote]').remove();
 	$('.footnoteContent').prepend('<a href="#" class="closeFootnote">&times;</a>');
 	$('.closeFootnote').click(function(){
