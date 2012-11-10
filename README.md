@@ -12,7 +12,6 @@ This is a fork of Sumeet Jain's [jQuery Markdown Footnotes].
 
 ## To do
 
-* Put comments in the `.js` file to illustrate how to make it work with [PHP Markdown Extra] again.
 * Clean up `.css` file and comment mandatory and user-changeable styles.
 
 [jQuery Markdown Footnotes]: http://sumeetjain.com/jquery-markdown-footnotes/
