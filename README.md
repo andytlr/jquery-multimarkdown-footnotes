@@ -3,7 +3,7 @@ jQuery MultiMarkdown Footnotes
 
 This is a fork of Sumeet Jain's [jQuery Markdown Footnotes].
 
-[View the Demo]
+[View the Demo] (simple and un-styled) or see [In use](#in-use) for further usage examples.
 
 ## What's different ##
 
